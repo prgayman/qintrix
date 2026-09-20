@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="qintrix/assets/logo.png" alt="Qintrix logo" width="120">
+  <img src="qintrix/assets/logo-trans.png" alt="Qintrix logo" width="120">
 
 # Qintrix
 
@@ -9,7 +9,7 @@
 
 Qintrix bridges modern applications and local printers. It runs beside the printers, exposes a local authenticated API, queues print jobs, and provides the visibility needed to manage printing without giving a browser direct access to hardware.
 
-**[Website](https://qintrix.tenvoro.app/)** · **[Documentation](https://qintrix-docs.tenvoro.app/)**
+<strong><a href="https://qintrix.tenvoro.app/" target="_blank" rel="noopener noreferrer">Website</a></strong> · <strong><a href="https://qintrix-docs.tenvoro.app/" target="_blank" rel="noopener noreferrer">Documentation</a></strong>
 
 ## Features
 
