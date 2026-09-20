@@ -1,0 +1,10 @@
+:root {
+  --vp-font-family-base: "Cairo", sans-serif;
+  --vp-c-brand-1: #0b5ed7;
+  --vp-c-brand-2: #ff9800;
+  --vp-button-brand-bg: #0b5ed7;
+}
+
+button.copy {
+  display: none !important;
+}

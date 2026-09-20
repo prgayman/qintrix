@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "docs:dev": "vitepress dev --port 3000",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "docs:fix-routes": "./fix_routes.sh",
+    "docs:build-offline": "yarn docs:build && yarn docs:fix-routes"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "vitepress": "^1.6.3"
+  }
+}

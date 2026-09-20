@@ -1,0 +1,573 @@
+{
+  "@@locale": "ar",
+  "appTitle": "Qintrix",
+  "navDashboard": "لوحة التحكم",
+  "navServer": "الخادم",
+  "navPrinters": "الطابعات",
+  "navJobs": "المهام",
+  "navApps": "التطبيقات",
+  "navLogs": "السجلات",
+  "navSettings": "الإعدادات",
+  "navAbout": "حول التطبيق",
+  "dashboardDescription": "اعرض نظرة تشغيلية سريعة وانتقل مباشرة إلى أقسام الإدارة الأساسية.",
+  "dashboardServerLoading": "جارٍ تحميل حالة الخادم...",
+  "serverTitle": "الخادم",
+  "serverDescription": "إدارة تشغيل خادم API المدمج وعناصر التحكم وأحدث نشاطات الخادم.",
+  "dashboardServerRunning": "قيد التشغيل",
+  "dashboardServerStopped": "متوقف",
+  "dashboardMetricHost": "المضيف",
+  "dashboardMetricPort": "المنفذ",
+  "dashboardMetricLastChanged": "آخر تغيير",
+  "dashboardMetricStartedAt": "وقت البدء",
+  "serverMetricRuntime": "مدة التشغيل",
+  "dashboardUnavailable": "غير متاح",
+  "dashboardServerStart": "تشغيل",
+  "dashboardServerStop": "إيقاف",
+  "dashboardServerRestart": "تحديث",
+  "dashboardRuntimeTitle": "إعدادات التشغيل",
+  "dashboardRuntimeSubtitle": "إعدادات الخادم الحالية المستخدمة عند التشغيل التلقائي أو التحكم اليدوي.",
+  "dashboardConfigLanAccess": "الوصول عبر الشبكة المحلية",
+  "dashboardConfigAutoStart": "تشغيل الخادم تلقائياً",
+  "dashboardConfigBackgroundMode": "وضع الخلفية",
+  "dashboardConfigStartWithOs": "التشغيل مع النظام",
+  "dashboardEnabled": "مفعل",
+  "dashboardDisabled": "معطل",
+  "dashboardRecentActivityTitle": "النشاط الأخير",
+  "dashboardRecentActivitySubtitle": "أحدث أحداث دورة حياة الخادم والمصادقة واختبارات الطابعات.",
+  "dashboardRecentActivityEmpty": "لم يتم تسجيل أي نشاط للخادم بعد.",
+  "shellCollapseSidebar": "طي الشريط الجانبي",
+  "shellExpandSidebar": "توسيع الشريط الجانبي",
+  "shellCopyrightText": "Qintrix © {year} · تم تطويره بواسطة",
+  "@shellCopyrightText": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "languageEnglish": "الإنجليزية",
+  "languageArabic": "العربية",
+  "themeModeSystem": "النظام",
+  "themeModeLight": "فاتح",
+  "themeModeDark": "داكن",
+  "settingsTitle": "الإعدادات",
+  "settingsDescription": "تحكم في مظهر Qintrix واللغة المستخدمة عند إعادة فتح التطبيق.",
+  "settingsAppearanceTitle": "المظهر",
+  "settingsAppearanceDescription": "اختر طريقة تعامل الواجهة مع الثيم الفاتح والداكن.",
+  "settingsLanguageTitle": "اللغة",
+  "settingsLanguageDescription": "بدل لغة التطبيق فوراً مع حفظ التفضيل تلقائياً.",
+  "settingsApplicationTitle": "التطبيق",
+  "settingsApplicationDescription": "إدارة سلوك التطبيق وتفضيلات بدء التشغيل.",
+  "settingsApplicationDiagnosticsTitle": "تشخيص التطبيق",
+  "settingsApplicationDiagnosticsDescription": "تحقق من حالة التشغيل مع النظام ووضع الخلفية وتكامل أيقونة الشريط حالياً.",
+  "settingsApplicationStartWithOsStatus": "التشغيل مع النظام",
+  "settingsApplicationBackgroundModeStatus": "وضع الخلفية",
+  "settingsApplicationTrayStatus": "أيقونة الشريط / شريط القوائم",
+  "settingsServerTitle": "الخادم",
+  "settingsServerDescription": "إدارة إعدادات الخادم المحلي وتشغيل الوكيل.",
+  "settingsJobsTitle": "المهام",
+  "settingsJobsDescription": "إدارة سلوك بدء قائمة الانتظار وسياسة إعادة المحاولة وإعدادات الاحتفاظ بسجل المهام.",
+  "settingsAppPort": "منفذ التطبيق",
+  "settingsBindHost": "عنوان IP للربط",
+  "settingsEnableBackgroundMode": "تفعيل وضع الخلفية",
+  "settingsStartWithOs": "التشغيل مع النظام",
+  "settingsAllowLanAccess": "السماح بالوصول عبر الشبكة المحلية",
+  "settingsAutoStartServer": "تشغيل الخادم تلقائياً",
+  "settingsSaveApplication": "حفظ إعدادات التطبيق",
+  "settingsSaveServer": "حفظ إعدادات الخادم",
+  "settingsSaveJobs": "حفظ إعدادات المهام",
+  "settingsJobsStartPaused": "بدء قائمة الانتظار في وضع الإيقاف المؤقت",
+  "settingsJobsMaxRetries": "الحد الأقصى لإعادات المحاولة",
+  "settingsJobsRetryDelaySeconds": "تأخير إعادة المحاولة (ثوانٍ)",
+  "settingsJobsHistoryRetentionDays": "مدة الاحتفاظ بالسجل (أيام)",
+  "settingsInvalidPort": "يجب أن يكون المنفذ رقماً بين 1 و65535.",
+  "settingsInvalidHost": "أدخل عنوان IPv4 محلي فقط مثل 127.0.0.1 أو 192.168.1.20.",
+  "settingsLanIpDetecting": "جارٍ اكتشاف عنوان IP المتاح على الشبكة المحلية...",
+  "settingsLanIpAutofilled": "تم اكتشاف عنوان IP محلي وتعبئته تلقائياً.",
+  "settingsLanIpUnavailable": "لا يوجد عنوان IP محلي متاح حالياً. سيتم الاحتفاظ بالعنوان الحالي.",
+  "settingsSaveSuccess": "تم حفظ إعدادات الخادم بنجاح.",
+  "settingsSaveAndRestartSuccess": "تم حفظ إعدادات الخادم وإعادة تشغيل الخادم.",
+  "settingsRestartFailed": "تم حفظ الإعدادات، لكن تعذر إعادة تشغيل الخادم.",
+  "settingsSaveValidationFailed": "يرجى تصحيح الحقول المحددة قبل الحفظ.",
+  "settingsBindValidationFailed": "لا يمكن استخدام المضيف أو المنفذ المحدد لتشغيل الخادم.",
+  "aboutTitle": "حول التطبيق",
+  "aboutHeading": "جسر طباعة مكتبي لفرق التشغيل الحديثة",
+  "aboutDescription": "يربط Qintrix المواقع والأنظمة والأدوات الداخلية بالطابعات المحلية عبر مساحة عمل مكتبية واحدة ومنظمة. تم تصميمه ليجعل الطباعة أكثر موثوقية ووضوحًا وأسهل في الإدارة للمشغلين.",
+  "aboutHeroEyebrow": "نظرة عامة على التطبيق",
+  "aboutHeroPillLocalBridge": "جسر طباعة محلي",
+  "aboutHeroPillSecureApps": "وصول آمن للتطبيقات",
+  "aboutHeroPillOperationalControl": "تحكم تشغيلي",
+  "aboutHeroMetricJobs": "إجمالي المهام",
+  "aboutHeroMetricPrinters": "الطابعات المفعلة",
+  "aboutHeroMetricApps": "التطبيقات المفعلة",
+  "aboutHeroMetricSuccessRate": "معدل النجاح",
+  "aboutAnalyticsTitle": "لقطة تشغيلية مباشرة",
+  "aboutAnalyticsSubtitle": "قراءة سريعة لحجم العمل والتوفر والتنبيهات النشطة.",
+  "aboutMetricTotalJobs": "إجمالي المهام",
+  "aboutMetricCompletionRate": "معدل الإنجاز",
+  "aboutMetricEnabledPrinters": "الطابعات المفعلة",
+  "aboutMetricEnabledApps": "التطبيقات المفعلة",
+  "aboutMetricQueuedJobs": "المهام المنتظرة",
+  "aboutMetricRecentAlerts": "التنبيهات الحديثة",
+  "aboutTrendTitle": "المهام خلال آخر 7 أيام",
+  "aboutTrendSubtitle": "نشاط الطباعة اليومي داخل مساحة العمل.",
+  "dashboardTrendTotalLabel": "إجمالي الحجم",
+  "dashboardTrendPeakDayLabel": "أعلى يوم",
+  "dashboardAllTimeLabel": "كل الوقت",
+  "aboutStatusMixTitle": "توزيع حالات المهام",
+  "aboutStatusMixSubtitle": "كيف يتوزع الحمل الحالي بين الحالات المختلفة.",
+  "aboutConnectionsTitle": "بصمة الاتصالات",
+  "aboutConnectionsSubtitle": "أنواع اتصالات الطابعات المكوّنة حالياً في النظام.",
+  "aboutContentTypesTitle": "توزيع أنواع المحتوى",
+  "aboutContentTypesSubtitle": "ما الذي يستقبله النظام غالباً من التطبيقات المتصلة.",
+  "aboutPurposeTitle": "ماذا يفعل Qintrix",
+  "aboutPurposeSubtitle": "مكان واحد لاستقبال أعمال الطباعة ومعالجتها ومراقبتها.",
+  "aboutPurposeBody": "يعمل Qintrix كحلقة وصل بين طلبات الطباعة القادمة عبر API والطابعات المتوفرة على الجهاز المحلي أو الشبكة. بدلاً من ربط كل طابعة مباشرة مع النظام الخارجي، يمكن للفرق إدارة الطابعات والتطبيقات وسلوك قائمة الانتظار وتشغيل الخادم والتشخيصات من واجهة واحدة.",
+  "aboutAudienceTitle": "لمن صُمم",
+  "aboutAudienceBody": "يناسب البيئات التي تحتاج إلى طباعة مستقرة للإيصالات أو الملصقات أو التذاكر أو محطات العمل، مع إبقاء قواعد الوصول وإعادات المحاولة واستكشاف الأخطاء واضحة للمشغلين وفرق الدعم.",
+  "aboutWorkflowTitle": "كيف يعمل التدفق",
+  "aboutWorkflowSubtitle": "مسار واضح من الطلب الوارد إلى المخرجات المطبوعة المكتملة.",
+  "aboutWorkflowStepConnectTitle": "ربط الطابعات والتطبيقات",
+  "aboutWorkflowStepConnectDescription": "قم بتسجيل الطابعات، واختر نوع الاتصال المناسب، وتحكم في التطبيقات العميلة المسموح لها بإرسال المهام.",
+  "aboutWorkflowStepProcessTitle": "استقبال المهام ووضعها في الانتظار وتنفيذها",
+  "aboutWorkflowStepProcessDescription": "يتم التحقق من المهام الواردة وتجهيزها ووضعها في قائمة الانتظار وتنفيذها عبر اتصال الطابعة المكوّن مع الخيارات الصحيحة وآليات إعادة المحاولة.",
+  "aboutWorkflowStepObserveTitle": "راقب الحالة وعالج المشاكل بسرعة",
+  "aboutWorkflowStepObserveDescription": "تابع صحة الخادم وتقدم المهام وحالة قائمة الانتظار والسجلات لحظيًا حتى يتمكن المشغلون من التدخل قبل أن تتحول المشاكل الصغيرة إلى توقف فعلي.",
+  "aboutModulesTitle": "الأقسام الرئيسية في مساحة العمل",
+  "aboutModulesSubtitle": "كل قسم يركز على جزء واحد من عملية الطباعة حتى تبقى الواجهة سهلة القراءة.",
+  "aboutHighlightsTitle": "لماذا تستخدمه الفرق",
+  "aboutHighlightsSubtitle": "مصمم لتقليل احتكاك الطباعة بدون إخفاء التفاصيل التقنية المهمة.",
+  "aboutHighlightSecureTitle": "وصول مضبوط",
+  "aboutHighlightSecureDescription": "تتم مصادقة التطبيقات العميلة عبر مفاتيح API، ويمكن تفعيلها أو تعطيلها بشكل منفصل، وتقييدها على طابعات محددة.",
+  "aboutHighlightReliableTitle": "إدارة مهام موثوقة",
+  "aboutHighlightReliableDescription": "تتحرك المهام عبر حالات واضحة مع عناصر تحكم في قائمة الانتظار وإعادات المحاولة والملفات الناتجة والسجل، مما يجعل تشخيص فشل الطباعة أسهل.",
+  "aboutHighlightFlexibleTitle": "دعم مرن للاتصالات",
+  "aboutHighlightFlexibleDescription": "يدعم Qintrix الطباعة عبر النظام والطباعة عبر TCP الشبكي وتدفقات ESC/POS الخام مع الحفاظ على واجهة تشغيل موحدة.",
+  "aboutVersionLabel": "الإصدار",
+  "aboutVersionDescription": "إصدار التطبيق الحالي",
+  "aboutVersionNote": "يضم هذا الإصدار تجربة الخادم والطابعات والمهام والتطبيقات والسجلات والإعدادات داخل واجهة مكتبية واحدة لإدارة عمليات الطباعة الإنتاجية.",
+  "aboutAttributionTitle": "التصميم والتطوير بواسطة Tenvoro",
+  "aboutAttributionSubtitle": "تم تنفيذ تجربة التطبيق والواجهة والتطوير البرمجي بواسطة Tenvoro.",
+  "aboutAttributionAction": "عرض الناشر",
+  "logsTitle": "السجلات",
+  "logsDescription": "أحداث التطبيق المخزنة ونشاط الخادم وتحديثات دورة حياة مهام الطباعة.",
+  "printersTitle": "الطابعات",
+  "printersDescription": "إدارة تعريفات الطابعات وأنواع الاتصال وإعدادات الأجهزة.",
+  "jobsTitle": "المهام",
+  "jobsDescription": "متابعة مهام الطباعة وإعادات المحاولة ونشاط قائمة الانتظار وحالة التنفيذ.",
+  "appsTitle": "التطبيقات",
+  "appsDescription": "إدارة تطبيقات العملاء ومفاتيح API وقواعد الوصول إلى الطابعات.",
+  "jobsSearchPlaceholder": "ابحث في المهام",
+  "jobsResetFilters": "إعادة تعيين الفلاتر",
+  "jobsFilterStatus": "الحالة",
+  "jobsAllStatuses": "كل الحالات",
+  "jobsFilterContentType": "نوع المحتوى",
+  "jobsAllContentTypes": "كل أنواع المحتوى",
+  "jobsStatusAccepted": "مقبولة",
+  "jobsStatusRendering": "قيد التجهيز",
+  "jobsStatusQueued": "في قائمة الانتظار",
+  "jobsStatusProcessing": "قيد المعالجة",
+  "jobsStatusCompleted": "مكتملة",
+  "jobsStatusFailed": "فشلت",
+  "jobsStatusCanceled": "ألغيت",
+  "jobsStatusRetryScheduled": "إعادة المحاولة مجدولة",
+  "jobsEmptyTitle": "لا توجد مهام بعد",
+  "jobsEmptyDescription": "ستظهر مهام الطباعة المقبولة هنا بعد إنشائها عبر واجهة API.",
+  "jobsRetrySuccess": "تمت إعادة إدراج المهمة للمحاولة من جديد.",
+  "jobsCancelSuccess": "تم إلغاء المهمة بنجاح.",
+  "jobsColumnId": "معرف المهمة",
+  "jobsColumnPrinter": "الطابعة",
+  "jobsColumnContentType": "نوع المحتوى",
+  "jobsColumnStatus": "الحالة",
+  "jobsColumnReference": "المرجع",
+  "jobsColumnCreatedAt": "وقت الإنشاء",
+  "jobsBackToJobs": "العودة إلى المهام",
+  "jobsArtifactLabel": "الملف الناتج",
+  "jobsFailureLabel": "سبب الفشل",
+  "jobsQueuePausedTitle": "قائمة الانتظار متوقفة",
+  "jobsQueuePausedDescription": "يمكن قبول المهام الجديدة، لكن لن تبدأ أي مهمة في قائمة الانتظار حتى يتم استئنافها.",
+  "jobsQueuePausedBadge": "متوقفة",
+  "jobsQueueResumeAction": "استئناف",
+  "jobsQueueRunningTitle": "قائمة الانتظار تعمل",
+  "jobsQueueRunningDescription": "{count, plural, =0 {لا توجد عمال نشطون الآن. ستبدأ المهام المصطفة تلقائياً عند توفر العامل المناسب.} =1 {هناك عامل واحد يعالج المهام حالياً.} other {هناك {count} عمال يعالجون المهام حالياً.}}",
+  "@jobsQueueRunningDescription": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "jobsQueueRunningBadge": "تعمل",
+  "printersCreateAction": "إنشاء طابعة",
+  "printersEditAction": "تعديل",
+  "printersShowAction": "عرض",
+  "printersDeleteAction": "حذف",
+  "printersDeletedSuccess": "تم حذف الطابعة بنجاح.",
+  "printersBulkDeletedSuccess": "تم حذف الطابعات المحددة بنجاح.",
+  "printersSaveChanges": "حفظ التغييرات",
+  "printersBulkDeleteAction": "حذف المحدد",
+  "printersBackToIndex": "العودة إلى الطابعات",
+  "printersDeleteTitle": "حذف الطابعة",
+  "printersDeleteDescription": "حذف {name} نهائياً؟",
+  "@printersDeleteDescription": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "printersBulkDeleteTitle": "حذف الطابعات المحددة",
+  "printersBulkDeleteDescription": "حذف {count} من الطابعات المحددة نهائياً؟",
+  "@printersBulkDeleteDescription": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "printersSelectedCount": "تم تحديد {count}",
+  "@printersSelectedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "printersEmptyTitle": "لا توجد طابعات بعد",
+  "printersEmptyDescription": "أنشئ تعريف طابعة لبدء توجيه مهام الطباعة المستقبلية.",
+  "printersColumnName": "الاسم",
+  "printersColumnIdentifier": "المعرف",
+  "printersColumnConnectionType": "نوع الاتصال",
+  "printersColumnConnectionSummary": "ملخص الاتصال",
+  "printersColumnEnabled": "مفعل",
+  "printersColumnLastStatus": "آخر حالة",
+  "printersColumnLastStatusMessage": "رسالة الحالة",
+  "printersColumnUpdatedAt": "آخر تحديث",
+  "printersColumnActions": "الإجراءات",
+  "printersSearchPlaceholder": "ابحث في الطابعات",
+  "printersFilterConnectionType": "نوع الاتصال",
+  "printersFilterAllTypes": "كل الأنواع",
+  "printersFilterStatus": "الحالة",
+  "printersFilterAllStatuses": "كل الحالات",
+  "printersStatusEnabled": "مفعل",
+  "printersStatusDisabled": "معطل",
+  "printersLastStatusTestSuccess": "نجح الاختبار",
+  "printersLastStatusTestFailure": "فشل الاختبار",
+  "printersLastStatusTestNotSupported": "الاختبار غير مدعوم",
+  "printersLastStatusPrintSuccess": "نجحت الطباعة",
+  "printersLastStatusPrintFailure": "فشلت الطباعة",
+  "printersLastStatusRenderFailure": "فشل التجهيز",
+  "printersTypeTcp": "طابعة طرفية عبر الشبكة (TCP/IP)",
+  "printersTypeSystem": "طابعة USB / النظام (Spooler)",
+  "printersTypeUsbRaw": "طابعة USB Raw ESC/POS",
+  "printersTypeTcpShort": "TCP/IP",
+  "printersTypeSystemShort": "النظام",
+  "printersTypeUsbRawShort": "USB Raw",
+  "printersFormOverviewTitle": "معلومات الطابعة",
+  "printersBasicSectionTitle": "الإعدادات الأساسية",
+  "printersAdvancedSectionTitle": "الإعدادات المتقدمة",
+  "printersConnectionDetailsTitle": "تفاصيل الاتصال",
+  "printersUniqueKeyHelper": "يتم إنشاء هذا المعرف تلقائياً وسيستخدم لاحقاً عبر الـ API.",
+  "printersDescriptionHint": "وصف داخلي اختياري",
+  "printersBooleanYes": "نعم",
+  "printersBooleanNo": "لا",
+  "printersFieldName": "اسم الطابعة",
+  "printersFieldIdentifier": "المعرف",
+  "printersCopyIdentifierAction": "نسخ المعرف",
+  "printersIdentifierCopied": "تم نسخ المعرف.",
+  "printersCreatedSuccess": "تم إنشاء الطابعة بنجاح.",
+  "printersUpdatedSuccess": "تم تحديث الطابعة بنجاح.",
+  "printersTestConnectionAction": "اختبار الاتصال",
+  "printersTestConnectionSuccess": "نجح اختبار الاتصال. {message}",
+  "@printersTestConnectionSuccess": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "printersTestConnectionFailure": "فشل اختبار الاتصال. {message}",
+  "@printersTestConnectionFailure": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "printersTestConnectionNotSupported": "اختبار الاتصال غير مدعوم حالياً. {message}",
+  "@printersTestConnectionNotSupported": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "printersTestTcpMissingConfig": "يجب إدخال المضيف والمنفذ قبل اختبار اتصال TCP.",
+  "printersTestTcpSuccess": "نجح اتصال TCP إلى {host}:{port}.",
+  "@printersTestTcpSuccess": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      },
+      "port": {
+        "type": "String"
+      }
+    }
+  },
+  "printersTestTcpTimeout": "انتهت مهلة اتصال TCP إلى {host}:{port}.",
+  "@printersTestTcpTimeout": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      },
+      "port": {
+        "type": "String"
+      }
+    }
+  },
+  "printersTestTcpFailure": "فشل اتصال TCP إلى {host}:{port}. {error}",
+  "@printersTestTcpFailure": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      },
+      "port": {
+        "type": "String"
+      },
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "printersTestSystemMissingConfig": "يجب إدخال اسم الطابعة أو اسم قائمة الانتظار قبل اختبار اتصال الطابعة عبر النظام.",
+  "printersTestSystemSuccess": "طابعة النظام \"{name}\" متاحة.",
+  "@printersTestSystemSuccess": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "printersTestSystemFailure": "لم يتم العثور على طابعة النظام \"{name}\".",
+  "@printersTestSystemFailure": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "printersTestUsbMissingConfig": "يجب إدخال معرف Vendor ومعرف Product قبل اختبار اتصال USB الخام.",
+  "printersTestUsbSuccess": "جهاز USB الخام {vendorId}:{productId} متاح.",
+  "@printersTestUsbSuccess": {
+    "placeholders": {
+      "vendorId": {
+        "type": "String"
+      },
+      "productId": {
+        "type": "String"
+      }
+    }
+  },
+  "printersTestUsbFailure": "لم يتم العثور على جهاز USB الخام {vendorId}:{productId}.",
+  "@printersTestUsbFailure": {
+    "placeholders": {
+      "vendorId": {
+        "type": "String"
+      },
+      "productId": {
+        "type": "String"
+      }
+    }
+  },
+  "printersTestCommandUnavailable": "الأمر المحلي \"{command}\" غير متاح على هذا النظام.",
+  "@printersTestCommandUnavailable": {
+    "placeholders": {
+      "command": {
+        "type": "String"
+      }
+    }
+  },
+  "printersTestUnsupportedPlatform": "اختبار هذا الاتصال غير مدعوم على النظام الحالي.",
+  "printersFieldDescription": "الوصف",
+  "printersFieldConnectionType": "نوع الاتصال",
+  "printersFieldEnabled": "مفعل",
+  "printersFieldHost": "المضيف",
+  "printersFieldPort": "المنفذ",
+  "printersFieldConnectTimeout": "مهلة الاتصال (مللي ثانية)",
+  "printersFieldWriteTimeout": "مهلة الكتابة (مللي ثانية)",
+  "printersFieldReadTimeout": "مهلة القراءة (مللي ثانية)",
+  "printersFieldAutoReconnect": "إعادة الاتصال تلقائياً",
+  "printersFieldReconnectDelay": "تأخير إعادة الاتصال (مللي ثانية)",
+  "printersFieldEncoding": "الترميز",
+  "printersFieldCodePage": "صفحة الرموز",
+  "printersFieldLineEnding": "نهاية السطر",
+  "printersFieldKeepAlive": "إبقاء الاتصال حياً",
+  "printersFieldNoDelay": "بدون تأخير",
+  "printersFieldLinger": "الانتظار (ثانية)",
+  "printersFieldPrinterName": "اسم الطابعة",
+  "printersFieldPaperSize": "حجم الورق",
+  "printersFieldDefaultCopies": "عدد النسخ الافتراضي",
+  "printersFieldColorEnabled": "تفعيل الألوان",
+  "printersFieldDuplexMode": "وضع الطباعة على الوجهين",
+  "printersFieldOrientation": "الاتجاه",
+  "printersFieldJobTimeout": "مهلة المهمة (مللي ثانية)",
+  "printersFieldNotes": "ملاحظات",
+  "printersFieldDriverName": "اسم برنامج التشغيل",
+  "printersFieldQueueName": "اسم قائمة الانتظار",
+  "printersFieldSpoolFormat": "تنسيق الـ Spool",
+  "printersFieldUseRawSpool": "استخدام Spool خام",
+  "printersFieldVendorId": "معرف Vendor",
+  "printersFieldProductId": "معرف Product",
+  "printersFieldSerialNumber": "الرقم التسلسلي",
+  "printersFieldInterfaceNumber": "رقم الواجهة",
+  "printersFieldOutEndpoint": "منفذ الخروج",
+  "printersFieldInEndpoint": "منفذ الدخول",
+  "printersFieldTimeout": "المهلة (مللي ثانية)",
+  "printersFieldCharacterTable": "جدول المحارف",
+  "printersFieldStatusMonitoring": "تفعيل مراقبة الحالة",
+  "printersFieldAutoCutEnabled": "تفعيل القص التلقائي",
+  "printersFieldCutMode": "وضع القص",
+  "printersFieldCashDrawerEnabled": "تفعيل درج النقد",
+  "printersFieldDrawerPin": "رجل درج النقد",
+  "printersFieldManufacturer": "الشركة المصنعة",
+  "printersFieldProductName": "اسم المنتج",
+  "printersFieldAlternateSetting": "الإعداد البديل",
+  "printersFieldPacketDelay": "تأخير الحزمة (مللي ثانية)",
+  "printersFieldRawGraphicsMode": "وضع الرسومات الخام",
+  "printersRawGraphicsModeModern": "رسومات حديثة",
+  "printersRawGraphicsModeLegacy": "تنقيط قديم",
+  "printersValidationRequired": "هذا الحقل مطلوب.",
+  "printersValidationTooLong": "هذه القيمة طويلة جداً.",
+  "printersValidationInvalidHost": "أدخل IPv4 أو IPv6 أو اسم مضيف صالح.",
+  "printersValidationIntegerOnly": "أدخل أرقاماً فقط.",
+  "printersValidationTooSmall": "القيمة أقل من الحد الأدنى المسموح.",
+  "printersValidationTooLarge": "القيمة أكبر من الحد الأقصى المسموح.",
+  "printersValidationUsbId": "أدخل معرف USB سداسي عشري مكوناً من 4 خانات.",
+  "printersValidationUsbEndpoint": "أدخل قيمة صالحة لمنفذ USB.",
+  "printersValidationDistinctEndpoints": "يجب ألا يطابق منفذ الإدخال منفذ الإخراج.",
+  "printersValidationDrawerPin": "يجب أن تكون رجل الدرج 2 أو 5.",
+  "printersValidationUniqueKey": "المعرف الذي تم إنشاؤه موجود مسبقاً. حاول مرة أخرى.",
+  "printersValidationSpoolFormat": "عند استخدام Spool خام يجب أن يكون التنسيق RAW أو فارغاً.",
+  "appsCreateAction": "إنشاء تطبيق",
+  "appsEditAction": "تعديل",
+  "appsShowAction": "عرض",
+  "appsDeleteAction": "حذف",
+  "appsSaveChanges": "حفظ التغييرات",
+  "appsBackToIndex": "العودة إلى التطبيقات",
+  "appsOverviewTitle": "نظرة عامة على التطبيق",
+  "appsAccessTitle": "وصول الطابعات",
+  "appsEmptyTitle": "لا توجد تطبيقات بعد",
+  "appsEmptyDescription": "أنشئ تطبيقاً لبدء إصدار مفاتيح API وتقييد الوصول إلى الطابعات.",
+  "appsDeleteTitle": "حذف التطبيق",
+  "appsDeleteDescription": "حذف {name} نهائياً؟",
+  "@appsDeleteDescription": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "appsBulkDeleteTitle": "حذف التطبيقات المحددة",
+  "appsBulkDeleteAction": "حذف المحدد",
+  "appsBulkDeleteDescription": "حذف {count} من التطبيقات المحددة؟",
+  "@appsBulkDeleteDescription": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appsSelectedCount": "{count} محدد",
+  "@appsSelectedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appsCreatedSuccess": "تم إنشاء التطبيق بنجاح.",
+  "appsUpdatedSuccess": "تم تحديث التطبيق بنجاح.",
+  "appsDeletedSuccess": "تم حذف التطبيق بنجاح.",
+  "appsBulkDeletedSuccess": "تم حذف التطبيقات المحددة بنجاح.",
+  "appsSearchPlaceholder": "ابحث في التطبيقات",
+  "appsFilterStatus": "الحالة",
+  "appsFilterPrinterScope": "نطاق الطابعات",
+  "appsFilterAllStatuses": "كل الحالات",
+  "appsFilterAllScopes": "كل النطاقات",
+  "appsStatusEnabled": "مفعّل",
+  "appsStatusDisabled": "معطّل",
+  "appsFieldName": "الاسم",
+  "appsFieldEnabled": "مفعّل",
+  "appsFieldDescription": "الوصف",
+  "appsFieldApiKey": "مفتاح API",
+  "appsFieldUpdatedAt": "آخر تحديث",
+  "appsDescriptionHint": "وصف داخلي اختياري",
+  "appsApiKeyHelper": "يتم إنشاء مفتاح API تلقائياً لهذا التطبيق.",
+  "appsCopyApiKeyAction": "نسخ مفتاح API",
+  "appsApiKeyCopied": "تم نسخ مفتاح API.",
+  "appsAllPrintersNote": "عدم اختيار طابعات يعني السماح بكل الطابعات.",
+  "appsNoPrintersAvailable": "لا توجد طابعات متاحة بعد.",
+  "appsAllPrintersAccess": "كل الطابعات",
+  "appsRestrictedPrintersLabel": "طابعات مقيّدة",
+  "appsAllowedPrintersLabel": "الطابعات المسموح بها",
+  "appsRestrictedPrintersCount": "{count} طابعات",
+  "@appsRestrictedPrintersCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appsColumnName": "الاسم",
+  "appsColumnApiKey": "مفتاح API",
+  "appsColumnPrinters": "الطابعات",
+  "appsColumnEnabled": "مفعّل",
+  "appsColumnUpdatedAt": "آخر تحديث",
+  "appsColumnActions": "الإجراءات",
+  "appsValidationRequired": "هذا الحقل مطلوب.",
+  "appsValidationMaxLength": "هذه القيمة طويلة جداً.",
+  "appsValidationDuplicateApiKey": "مفتاح API الذي تم إنشاؤه موجود مسبقاً. حاول مرة أخرى.",
+  "appsRegenerateApiKeyAction": "إعادة إنشاء مفتاح API",
+  "appsRegenerateApiKeyTitle": "إعادة إنشاء مفتاح API",
+  "appsRegenerateApiKeyDescription": "إنشاء مفتاح API جديد لـ {name}؟ ستحتاج عمليات الدمج الحالية إلى المفتاح الجديد.",
+  "@appsRegenerateApiKeyDescription": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "appsRegeneratedApiKeySuccess": "تمت إعادة إنشاء مفتاح API بنجاح.",
+  "logsLoading": "جارٍ تحميل السجلات",
+  "logsEmptyTitle": "لا توجد سجلات بعد",
+  "logsEmptyDescription": "سيقوم المسجل بحفظ أحداث التطبيق والخادم والطباعة هنا.",
+  "logsSearchPlaceholder": "ابحث في السجلات",
+  "logsFilterLevel": "المستوى",
+  "logsFilterEventType": "نوع الحدث",
+  "logsFilterAllLevels": "كل المستويات",
+  "logsFilterAllEventTypes": "كل الأحداث",
+  "logsResetFilters": "إعادة تعيين الفلاتر",
+  "logsColumnTime": "الوقت",
+  "logsColumnTitle": "العنوان",
+  "logsColumnMessage": "الرسالة",
+  "logsColumnEvent": "الحدث",
+  "logsColumnLevel": "المستوى",
+  "logsShowAction": "عرض التفاصيل",
+  "logsBackToLogs": "العودة إلى السجلات",
+  "logsMetadataTitle": "البيانات الوصفية",
+  "tableRowsPerPage": "{count} / صفحة",
+  "@tableRowsPerPage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "retry": "إعادة المحاولة",
+  "loading": "جارٍ التحميل",
+  "splashLoading": "يتم تجهيز Qintrix",
+  "splashErrorTitle": "فشل بدء التشغيل",
+  "splashErrorDescription": "تعذر على التطبيق إكمال مهام بدء التشغيل.",
+  "cancel": "إلغاء",
+  "errorDescription": "حالة الخطأ المشتركة جاهزة للوحدات القادمة."
+}

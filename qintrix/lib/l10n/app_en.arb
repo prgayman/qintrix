@@ -1,0 +1,573 @@
+{
+  "@@locale": "en",
+  "appTitle": "Qintrix",
+  "navDashboard": "Dashboard",
+  "navServer": "Server",
+  "navPrinters": "Printers",
+  "navJobs": "Jobs",
+  "navApps": "Apps",
+  "navLogs": "Logs",
+  "navSettings": "Settings",
+  "navAbout": "About App",
+  "dashboardDescription": "View a lightweight operational overview and jump into the main management areas.",
+  "dashboardServerLoading": "Loading server status...",
+  "serverTitle": "Server",
+  "serverDescription": "Manage the embedded API server runtime, controls, and recent server activity.",
+  "dashboardServerRunning": "Running",
+  "dashboardServerStopped": "Stopped",
+  "dashboardMetricHost": "Host",
+  "dashboardMetricPort": "Port",
+  "dashboardMetricLastChanged": "Last changed",
+  "dashboardMetricStartedAt": "Started at",
+  "serverMetricRuntime": "Runtime",
+  "dashboardUnavailable": "Unavailable",
+  "dashboardServerStart": "Start",
+  "dashboardServerStop": "Stop",
+  "dashboardServerRestart": "Refresh",
+  "dashboardRuntimeTitle": "Runtime configuration",
+  "dashboardRuntimeSubtitle": "Current server settings used by startup and manual server controls.",
+  "dashboardConfigLanAccess": "LAN access",
+  "dashboardConfigAutoStart": "Auto start server",
+  "dashboardConfigBackgroundMode": "Background mode",
+  "dashboardConfigStartWithOs": "Start with OS",
+  "dashboardEnabled": "Enabled",
+  "dashboardDisabled": "Disabled",
+  "dashboardRecentActivityTitle": "Recent activity",
+  "dashboardRecentActivitySubtitle": "Latest server lifecycle, authorization, and printer test events.",
+  "dashboardRecentActivityEmpty": "No server activity has been logged yet.",
+  "shellCollapseSidebar": "Collapse sidebar",
+  "shellExpandSidebar": "Expand sidebar",
+  "shellCopyrightText": "Qintrix © {year} · Crafted by",
+  "@shellCopyrightText": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "languageEnglish": "English",
+  "languageArabic": "Arabic",
+  "themeModeSystem": "System",
+  "themeModeLight": "Light",
+  "themeModeDark": "Dark",
+  "settingsTitle": "Settings",
+  "settingsDescription": "Control how Qintrix looks and which language it uses when the app reopens.",
+  "settingsAppearanceTitle": "Appearance",
+  "settingsAppearanceDescription": "Choose how the interface handles light and dark themes.",
+  "settingsLanguageTitle": "Language",
+  "settingsLanguageDescription": "Switch the application language instantly and keep the preference saved.",
+  "settingsApplicationTitle": "Application",
+  "settingsApplicationDescription": "Manage app-level behavior and startup preferences.",
+  "settingsApplicationDiagnosticsTitle": "Application diagnostics",
+  "settingsApplicationDiagnosticsDescription": "Verify whether autostart, background mode, and the tray/menu bar integration are active right now.",
+  "settingsApplicationStartWithOsStatus": "Start with OS",
+  "settingsApplicationBackgroundModeStatus": "Background mode",
+  "settingsApplicationTrayStatus": "Tray / menu bar",
+  "settingsServerTitle": "Server",
+  "settingsServerDescription": "Manage local server and agent runtime settings.",
+  "settingsJobsTitle": "Jobs",
+  "settingsJobsDescription": "Manage queue startup behavior, retry policy, and job retention defaults.",
+  "settingsAppPort": "App port",
+  "settingsBindHost": "Bind IP",
+  "settingsEnableBackgroundMode": "Enable background mode",
+  "settingsStartWithOs": "Start with OS",
+  "settingsAllowLanAccess": "Allow LAN access",
+  "settingsAutoStartServer": "Auto start server",
+  "settingsSaveApplication": "Save application settings",
+  "settingsSaveServer": "Save server settings",
+  "settingsSaveJobs": "Save jobs settings",
+  "settingsJobsStartPaused": "Start queue in paused mode",
+  "settingsJobsMaxRetries": "Max retry attempts",
+  "settingsJobsRetryDelaySeconds": "Retry delay (seconds)",
+  "settingsJobsHistoryRetentionDays": "History retention (days)",
+  "settingsInvalidPort": "Port must be a number between 1 and 65535.",
+  "settingsInvalidHost": "Enter a local IPv4 address only, such as 127.0.0.1 or 192.168.1.20.",
+  "settingsLanIpDetecting": "Detecting available LAN IP...",
+  "settingsLanIpAutofilled": "A LAN IP was detected and filled automatically.",
+  "settingsLanIpUnavailable": "No LAN IP is currently available. Keeping the current IP.",
+  "settingsSaveSuccess": "Server settings saved successfully.",
+  "settingsSaveAndRestartSuccess": "Server settings saved and the server restarted.",
+  "settingsRestartFailed": "Settings were saved, but the server could not restart.",
+  "settingsSaveValidationFailed": "Please fix the highlighted fields before saving.",
+  "settingsBindValidationFailed": "The selected host or port cannot be used to run the server.",
+  "aboutTitle": "About App",
+  "aboutHeading": "A desktop print bridge for modern operational teams",
+  "aboutDescription": "Qintrix connects websites, systems, and internal tools to local printers through one controlled desktop workspace. It is built to keep printing reliable, visible, and easy to manage for operators.",
+  "aboutHeroEyebrow": "Application Overview",
+  "aboutHeroPillLocalBridge": "Local print bridge",
+  "aboutHeroPillSecureApps": "Secure app access",
+  "aboutHeroPillOperationalControl": "Operational control",
+  "aboutHeroMetricJobs": "Jobs handled",
+  "aboutHeroMetricPrinters": "Enabled printers",
+  "aboutHeroMetricApps": "Enabled apps",
+  "aboutHeroMetricSuccessRate": "Success rate",
+  "aboutAnalyticsTitle": "Live application snapshot",
+  "aboutAnalyticsSubtitle": "A quick read of workload, availability, and active alerts.",
+  "aboutMetricTotalJobs": "Total jobs",
+  "aboutMetricCompletionRate": "Completion rate",
+  "aboutMetricEnabledPrinters": "Enabled printers",
+  "aboutMetricEnabledApps": "Enabled apps",
+  "aboutMetricQueuedJobs": "Queued jobs",
+  "aboutMetricRecentAlerts": "Recent alerts",
+  "aboutTrendTitle": "Jobs over the last 7 days",
+  "aboutTrendSubtitle": "Daily incoming print activity across the workspace.",
+  "dashboardTrendTotalLabel": "Total volume",
+  "dashboardTrendPeakDayLabel": "Peak day",
+  "dashboardAllTimeLabel": "All time",
+  "aboutStatusMixTitle": "Job status mix",
+  "aboutStatusMixSubtitle": "How the current workload is distributed.",
+  "aboutConnectionsTitle": "Connection footprint",
+  "aboutConnectionsSubtitle": "Configured printer connection types in the current setup.",
+  "aboutContentTypesTitle": "Content type mix",
+  "aboutContentTypesSubtitle": "What the system is receiving most often from connected clients.",
+  "aboutPurposeTitle": "What Qintrix does",
+  "aboutPurposeSubtitle": "One place to receive, process, and monitor printing work.",
+  "aboutPurposeBody": "Qintrix acts as the link between API-driven requests and the printers available on the local machine or network. Instead of wiring each printer directly into an external system, teams can manage printers, apps, queue behavior, server runtime, and diagnostics from one interface.",
+  "aboutAudienceTitle": "Who it is for",
+  "aboutAudienceBody": "It fits operations that need stable receipt, label, ticket, or workstation printing while keeping access rules, retries, and troubleshooting visible to both operators and support teams.",
+  "aboutWorkflowTitle": "How the workflow works",
+  "aboutWorkflowSubtitle": "A simple path from incoming request to completed print output.",
+  "aboutWorkflowStepConnectTitle": "Connect printers and apps",
+  "aboutWorkflowStepConnectDescription": "Register printers, choose the right connection type, and control which client apps are allowed to send jobs.",
+  "aboutWorkflowStepProcessTitle": "Accept, queue, and execute jobs",
+  "aboutWorkflowStepProcessDescription": "Incoming jobs are validated, prepared, queued, and executed through the configured printer connection with the right options and retries.",
+  "aboutWorkflowStepObserveTitle": "Monitor status and fix issues quickly",
+  "aboutWorkflowStepObserveDescription": "Track server health, job progress, queue state, and logs in real time so operators can respond before small issues become downtime.",
+  "aboutModulesTitle": "Main areas of the workspace",
+  "aboutModulesSubtitle": "Each module focuses on one part of the printing operation so the interface stays easy to scan.",
+  "aboutHighlightsTitle": "Why teams use it",
+  "aboutHighlightsSubtitle": "Designed to reduce print friction without hiding technical detail.",
+  "aboutHighlightSecureTitle": "Controlled access",
+  "aboutHighlightSecureDescription": "Client apps authenticate with API keys, can be enabled or disabled individually, and can be scoped to selected printers.",
+  "aboutHighlightReliableTitle": "Reliable job handling",
+  "aboutHighlightReliableDescription": "Jobs move through clear states with queue controls, retries, artifacts, and history that make print failures easier to diagnose.",
+  "aboutHighlightFlexibleTitle": "Flexible connection support",
+  "aboutHighlightFlexibleDescription": "Qintrix supports system spooler, network TCP, and raw ESC/POS-oriented workflows while keeping one consistent operational interface.",
+  "aboutVersionLabel": "Version",
+  "aboutVersionDescription": "Current application build",
+  "aboutVersionNote": "This build packages the server, printers, jobs, apps, logs, and settings experience into a single desktop control surface for production print operations.",
+  "aboutAttributionTitle": "Design & development by Tenvoro",
+  "aboutAttributionSubtitle": "This application experience, interface, and implementation were crafted by Tenvoro.",
+  "aboutAttributionAction": "View publisher",
+  "logsTitle": "Logs",
+  "logsDescription": "Persistent application events, server activity, and job lifecycle updates.",
+  "printersTitle": "Printers",
+  "printersDescription": "Manage printer definitions, connection types, and device-specific settings.",
+  "jobsTitle": "Jobs",
+  "jobsDescription": "Track print jobs, retries, queue activity, and execution state.",
+  "appsTitle": "Apps",
+  "appsDescription": "Manage client apps, API keys, and printer access rules.",
+  "jobsSearchPlaceholder": "Search jobs",
+  "jobsResetFilters": "Reset filters",
+  "jobsFilterStatus": "Status",
+  "jobsAllStatuses": "All statuses",
+  "jobsFilterContentType": "Content type",
+  "jobsAllContentTypes": "All content types",
+  "jobsStatusAccepted": "Accepted",
+  "jobsStatusRendering": "Rendering",
+  "jobsStatusQueued": "Queued",
+  "jobsStatusProcessing": "Processing",
+  "jobsStatusCompleted": "Completed",
+  "jobsStatusFailed": "Failed",
+  "jobsStatusCanceled": "Canceled",
+  "jobsStatusRetryScheduled": "Retry scheduled",
+  "jobsEmptyTitle": "No jobs yet",
+  "jobsEmptyDescription": "Accepted print jobs will appear here after they are created through the API.",
+  "jobsRetrySuccess": "Job queued for retry.",
+  "jobsCancelSuccess": "Job canceled successfully.",
+  "jobsColumnId": "Job ID",
+  "jobsColumnPrinter": "Printer",
+  "jobsColumnContentType": "Content type",
+  "jobsColumnStatus": "Status",
+  "jobsColumnReference": "Reference",
+  "jobsColumnCreatedAt": "Created at",
+  "jobsBackToJobs": "Back to jobs",
+  "jobsArtifactLabel": "Artifact",
+  "jobsFailureLabel": "Failure",
+  "jobsQueuePausedTitle": "Queue paused",
+  "jobsQueuePausedDescription": "New jobs can still be accepted, but no queued work will start until the queue is resumed.",
+  "jobsQueuePausedBadge": "Paused",
+  "jobsQueueResumeAction": "Resume",
+  "jobsQueueRunningTitle": "Queue running",
+  "jobsQueueRunningDescription": "{count, plural, =0 {No active workers right now. Queued jobs will start automatically when available.} =1 {1 worker is currently processing jobs.} other {{count} workers are currently processing jobs.}}",
+  "@jobsQueueRunningDescription": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "jobsQueueRunningBadge": "Running",
+  "printersCreateAction": "Create printer",
+  "printersEditAction": "Edit",
+  "printersShowAction": "Show",
+  "printersDeleteAction": "Delete",
+  "printersDeletedSuccess": "Printer deleted successfully.",
+  "printersBulkDeletedSuccess": "Selected printers deleted successfully.",
+  "printersSaveChanges": "Save changes",
+  "printersBulkDeleteAction": "Delete selected",
+  "printersBackToIndex": "Back to printers",
+  "printersDeleteTitle": "Delete printer",
+  "printersDeleteDescription": "Delete {name} permanently?",
+  "@printersDeleteDescription": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "printersBulkDeleteTitle": "Delete selected printers",
+  "printersBulkDeleteDescription": "Delete {count} selected printers permanently?",
+  "@printersBulkDeleteDescription": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "printersSelectedCount": "{count} selected",
+  "@printersSelectedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "printersEmptyTitle": "No printers yet",
+  "printersEmptyDescription": "Create a printer definition to start routing future print jobs.",
+  "printersColumnName": "Name",
+  "printersColumnIdentifier": "Identifier",
+  "printersColumnConnectionType": "Connection type",
+  "printersColumnConnectionSummary": "Connection summary",
+  "printersColumnEnabled": "Enabled",
+  "printersColumnLastStatus": "Last status",
+  "printersColumnLastStatusMessage": "Status message",
+  "printersColumnUpdatedAt": "Updated",
+  "printersColumnActions": "Actions",
+  "printersSearchPlaceholder": "Search printers",
+  "printersFilterConnectionType": "Connection type",
+  "printersFilterAllTypes": "All types",
+  "printersFilterStatus": "Status",
+  "printersFilterAllStatuses": "All statuses",
+  "printersStatusEnabled": "Enabled",
+  "printersStatusDisabled": "Disabled",
+  "printersLastStatusTestSuccess": "Test succeeded",
+  "printersLastStatusTestFailure": "Test failed",
+  "printersLastStatusTestNotSupported": "Test not supported",
+  "printersLastStatusPrintSuccess": "Print succeeded",
+  "printersLastStatusPrintFailure": "Print failed",
+  "printersLastStatusRenderFailure": "Render failed",
+  "printersTypeTcp": "Network Terminal Printer (TCP/IP)",
+  "printersTypeSystem": "USB / System Printer (Spooler)",
+  "printersTypeUsbRaw": "USB Raw ESC/POS Printer",
+  "printersTypeTcpShort": "TCP/IP",
+  "printersTypeSystemShort": "System",
+  "printersTypeUsbRawShort": "USB Raw",
+  "printersFormOverviewTitle": "Printer overview",
+  "printersBasicSectionTitle": "Basic settings",
+  "printersAdvancedSectionTitle": "Advanced settings",
+  "printersConnectionDetailsTitle": "Connection details",
+  "printersUniqueKeyHelper": "This identifier is generated automatically and used later by the API.",
+  "printersDescriptionHint": "Optional internal description",
+  "printersBooleanYes": "Yes",
+  "printersBooleanNo": "No",
+  "printersFieldName": "Printer name",
+  "printersFieldIdentifier": "Identifier",
+  "printersCopyIdentifierAction": "Copy identifier",
+  "printersIdentifierCopied": "Identifier copied.",
+  "printersCreatedSuccess": "Printer created successfully.",
+  "printersUpdatedSuccess": "Printer updated successfully.",
+  "printersTestConnectionAction": "Test connection",
+  "printersTestConnectionSuccess": "Connection test succeeded. {message}",
+  "@printersTestConnectionSuccess": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "printersTestConnectionFailure": "Connection test failed. {message}",
+  "@printersTestConnectionFailure": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "printersTestConnectionNotSupported": "Connection test is not supported yet. {message}",
+  "@printersTestConnectionNotSupported": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "printersTestTcpMissingConfig": "Host and port are required before testing the TCP connection.",
+  "printersTestTcpSuccess": "TCP connection to {host}:{port} succeeded.",
+  "@printersTestTcpSuccess": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      },
+      "port": {
+        "type": "String"
+      }
+    }
+  },
+  "printersTestTcpTimeout": "TCP connection to {host}:{port} timed out.",
+  "@printersTestTcpTimeout": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      },
+      "port": {
+        "type": "String"
+      }
+    }
+  },
+  "printersTestTcpFailure": "TCP connection to {host}:{port} failed. {error}",
+  "@printersTestTcpFailure": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      },
+      "port": {
+        "type": "String"
+      },
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "printersTestSystemMissingConfig": "Printer name or queue name is required before testing the system spooler connection.",
+  "printersTestSystemSuccess": "System printer \"{name}\" is available.",
+  "@printersTestSystemSuccess": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "printersTestSystemFailure": "System printer \"{name}\" was not found.",
+  "@printersTestSystemFailure": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "printersTestUsbMissingConfig": "Vendor ID and product ID are required before testing the USB raw connection.",
+  "printersTestUsbSuccess": "USB raw device {vendorId}:{productId} is available.",
+  "@printersTestUsbSuccess": {
+    "placeholders": {
+      "vendorId": {
+        "type": "String"
+      },
+      "productId": {
+        "type": "String"
+      }
+    }
+  },
+  "printersTestUsbFailure": "USB raw device {vendorId}:{productId} was not found.",
+  "@printersTestUsbFailure": {
+    "placeholders": {
+      "vendorId": {
+        "type": "String"
+      },
+      "productId": {
+        "type": "String"
+      }
+    }
+  },
+  "printersTestCommandUnavailable": "The local command \"{command}\" is not available on this system.",
+  "@printersTestCommandUnavailable": {
+    "placeholders": {
+      "command": {
+        "type": "String"
+      }
+    }
+  },
+  "printersTestUnsupportedPlatform": "This connection test is not supported on the current platform.",
+  "printersFieldDescription": "Description",
+  "printersFieldConnectionType": "Connection type",
+  "printersFieldEnabled": "Enabled",
+  "printersFieldHost": "Host",
+  "printersFieldPort": "Port",
+  "printersFieldConnectTimeout": "Connect timeout (ms)",
+  "printersFieldWriteTimeout": "Write timeout (ms)",
+  "printersFieldReadTimeout": "Read timeout (ms)",
+  "printersFieldAutoReconnect": "Auto reconnect",
+  "printersFieldReconnectDelay": "Reconnect delay (ms)",
+  "printersFieldEncoding": "Encoding",
+  "printersFieldCodePage": "Code page",
+  "printersFieldLineEnding": "Line ending",
+  "printersFieldKeepAlive": "Keep alive",
+  "printersFieldNoDelay": "No delay",
+  "printersFieldLinger": "Linger (s)",
+  "printersFieldPrinterName": "Printer name",
+  "printersFieldPaperSize": "Paper size",
+  "printersFieldDefaultCopies": "Default copies",
+  "printersFieldColorEnabled": "Color enabled",
+  "printersFieldDuplexMode": "Duplex mode",
+  "printersFieldOrientation": "Orientation",
+  "printersFieldJobTimeout": "Job timeout (ms)",
+  "printersFieldNotes": "Notes",
+  "printersFieldDriverName": "Driver name",
+  "printersFieldQueueName": "Queue name",
+  "printersFieldSpoolFormat": "Spool format",
+  "printersFieldUseRawSpool": "Use raw spool",
+  "printersFieldVendorId": "Vendor ID",
+  "printersFieldProductId": "Product ID",
+  "printersFieldSerialNumber": "Serial number",
+  "printersFieldInterfaceNumber": "Interface number",
+  "printersFieldOutEndpoint": "Out endpoint",
+  "printersFieldInEndpoint": "In endpoint",
+  "printersFieldTimeout": "Timeout (ms)",
+  "printersFieldCharacterTable": "Character table",
+  "printersFieldStatusMonitoring": "Status monitoring enabled",
+  "printersFieldAutoCutEnabled": "Auto cut enabled",
+  "printersFieldCutMode": "Cut mode",
+  "printersFieldCashDrawerEnabled": "Cash drawer enabled",
+  "printersFieldDrawerPin": "Drawer pin",
+  "printersFieldManufacturer": "Manufacturer",
+  "printersFieldProductName": "Product name",
+  "printersFieldAlternateSetting": "Alternate setting",
+  "printersFieldPacketDelay": "Packet delay (ms)",
+  "printersFieldRawGraphicsMode": "Raw graphics mode",
+  "printersRawGraphicsModeModern": "Modern graphics",
+  "printersRawGraphicsModeLegacy": "Legacy raster",
+  "printersValidationRequired": "This field is required.",
+  "printersValidationTooLong": "This value is too long.",
+  "printersValidationInvalidHost": "Enter a valid IPv4, IPv6, or hostname.",
+  "printersValidationIntegerOnly": "Enter numbers only.",
+  "printersValidationTooSmall": "The value is below the allowed minimum.",
+  "printersValidationTooLarge": "The value is above the allowed maximum.",
+  "printersValidationUsbId": "Enter a valid 4-digit hexadecimal USB ID.",
+  "printersValidationUsbEndpoint": "Enter a valid USB endpoint value.",
+  "printersValidationDistinctEndpoints": "In endpoint must not match out endpoint.",
+  "printersValidationDrawerPin": "Drawer pin must be 2 or 5.",
+  "printersValidationUniqueKey": "The generated identifier already exists. Try again.",
+  "printersValidationSpoolFormat": "Raw spool should use RAW spool format or leave it empty.",
+  "appsCreateAction": "Create app",
+  "appsEditAction": "Edit",
+  "appsShowAction": "Show",
+  "appsDeleteAction": "Delete",
+  "appsSaveChanges": "Save changes",
+  "appsBackToIndex": "Back to apps",
+  "appsOverviewTitle": "App overview",
+  "appsAccessTitle": "Printer access",
+  "appsEmptyTitle": "No apps yet",
+  "appsEmptyDescription": "Create an app to start issuing API keys and restricting printer access.",
+  "appsDeleteTitle": "Delete app",
+  "appsDeleteDescription": "Delete {name} permanently?",
+  "@appsDeleteDescription": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "appsBulkDeleteTitle": "Delete selected apps",
+  "appsBulkDeleteAction": "Delete selected",
+  "appsBulkDeleteDescription": "Delete {count} selected apps?",
+  "@appsBulkDeleteDescription": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appsSelectedCount": "{count} selected",
+  "@appsSelectedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appsCreatedSuccess": "App created successfully.",
+  "appsUpdatedSuccess": "App updated successfully.",
+  "appsDeletedSuccess": "App deleted successfully.",
+  "appsBulkDeletedSuccess": "Selected apps deleted successfully.",
+  "appsSearchPlaceholder": "Search apps",
+  "appsFilterStatus": "Status",
+  "appsFilterPrinterScope": "Printer scope",
+  "appsFilterAllStatuses": "All statuses",
+  "appsFilterAllScopes": "All scopes",
+  "appsStatusEnabled": "Enabled",
+  "appsStatusDisabled": "Disabled",
+  "appsFieldName": "Name",
+  "appsFieldEnabled": "Enabled",
+  "appsFieldDescription": "Description",
+  "appsFieldApiKey": "API key",
+  "appsFieldUpdatedAt": "Updated at",
+  "appsDescriptionHint": "Optional internal description",
+  "appsApiKeyHelper": "This API key is generated automatically for this app.",
+  "appsCopyApiKeyAction": "Copy API key",
+  "appsApiKeyCopied": "API key copied.",
+  "appsAllPrintersNote": "No printers selected means all printers are allowed.",
+  "appsNoPrintersAvailable": "No printers are available yet.",
+  "appsAllPrintersAccess": "All printers",
+  "appsRestrictedPrintersLabel": "Restricted printers",
+  "appsAllowedPrintersLabel": "Allowed printers",
+  "appsRestrictedPrintersCount": "{count} printers",
+  "@appsRestrictedPrintersCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appsColumnName": "Name",
+  "appsColumnApiKey": "API key",
+  "appsColumnPrinters": "Printers",
+  "appsColumnEnabled": "Enabled",
+  "appsColumnUpdatedAt": "Updated at",
+  "appsColumnActions": "Actions",
+  "appsValidationRequired": "This field is required.",
+  "appsValidationMaxLength": "This value is too long.",
+  "appsValidationDuplicateApiKey": "The generated API key already exists. Try again.",
+  "appsRegenerateApiKeyAction": "Regenerate API key",
+  "appsRegenerateApiKeyTitle": "Regenerate API key",
+  "appsRegenerateApiKeyDescription": "Generate a new API key for {name}? Existing integrations will need the new key.",
+  "@appsRegenerateApiKeyDescription": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "appsRegeneratedApiKeySuccess": "API key regenerated successfully.",
+  "logsLoading": "Loading logs",
+  "logsEmptyTitle": "No logs yet",
+  "logsEmptyDescription": "The logger will store app, server, and print events here.",
+  "logsSearchPlaceholder": "Search logs",
+  "logsFilterLevel": "Level",
+  "logsFilterEventType": "Event type",
+  "logsFilterAllLevels": "All levels",
+  "logsFilterAllEventTypes": "All events",
+  "logsResetFilters": "Reset filters",
+  "logsColumnTime": "Time",
+  "logsColumnTitle": "Title",
+  "logsColumnMessage": "Message",
+  "logsColumnEvent": "Event",
+  "logsColumnLevel": "Level",
+  "logsShowAction": "Show details",
+  "logsBackToLogs": "Back to logs",
+  "logsMetadataTitle": "Metadata",
+  "tableRowsPerPage": "{count} / page",
+  "@tableRowsPerPage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "retry": "Retry",
+  "loading": "Loading",
+  "splashLoading": "Preparing Qintrix",
+  "splashErrorTitle": "Startup failed",
+  "splashErrorDescription": "The app could not finish startup tasks.",
+  "cancel": "Cancel",
+  "errorDescription": "Reusable error state ready for future modules."
+}
