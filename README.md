@@ -9,6 +9,8 @@
 
 Qintrix bridges modern applications and local printers. It runs beside the printers, exposes a local authenticated API, queues print jobs, and provides the visibility needed to manage printing without giving a browser direct access to hardware.
 
+**[Website](https://qintrix.tenvoro.app/)** · **[Documentation](https://qintrix-docs.tenvoro.app/)**
+
 ## Features
 
 - Print plain text, HTML, PDF, and images
@@ -89,6 +91,8 @@ await qintrix.jobs.create({
 Protected endpoints send the API key in the `X-API-Key` header. For the complete client API, job formats, and error handling, see the [SDK guide](docs/guide/web-sdk.md) and [SDK README](web-sdk/README.md).
 
 ## Documentation
+
+Read the complete documentation at **[qintrix-docs.tenvoro.app](https://qintrix-docs.tenvoro.app/)**.
 
 Run the documentation site locally:
 
